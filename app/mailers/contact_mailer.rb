@@ -1,7 +1,7 @@
 class ContactMailer < ApplicationMailer::Base
     default to: 'akashmukherjee452@gmail.com'
     
-    def contact_mailer(name, email, body)
+    def contact_email(name, email, body)
        @name = name
        @email = email
        @body = body
